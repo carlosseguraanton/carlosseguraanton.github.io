@@ -185,6 +185,13 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
+iframe {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
     header {
